@@ -1,0 +1,26 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: sans-serif; background: #fdfdfd; color: #333; }
+.container { width: 90%; max-width: 1000px; margin: auto; }
+
+/* Header */
+header { background: #ffebcd; padding: 20px 0; text-align: center; }
+.logo { width: 60px; vertical-align: middle; margin-right: 10px; }
+header h1 { display: inline-block; vertical-align: middle; font-size: 2rem; }
+
+/* Hero */
+.hero { background: #ffe4e1; text-align: center; padding: 60px 20px; }
+.hero h2 { font-size: 2.5rem; margin-bottom: 10px; }
+.hero p { margin-bottom: 20px; font-size: 1.1rem; }
+.btn { background: #ff8c00; color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 5px; }
+
+/* Products */
+.products { padding: 40px 0; }
+.products h3 { text-align: center; margin-bottom: 20px; font-size: 2rem; }
+.product-list { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+.product-card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 15px; width: 220px; text-align: center; }
+.product-card img { width: 100%; height: auto; border-radius: 4px; }
+.product-card h4 { margin: 10px 0 5px; font-size: 1.1rem; }
+.product-card p { font-size: 0.95rem; color: #555; }
+
+/* Footer */
+footer { background: #eee; padding: 15px 0; text-align: center; font-size: 0.9rem; color: #555; }
